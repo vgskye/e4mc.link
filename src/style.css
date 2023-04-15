@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item {
+  @apply inline-block rounded-lg px-2 py-1 text-sm hover:bg-surface0;
+}
+
+.section-header {
+  @apply text-xl tracking-tight sm:text-2xl md:text-3xl;
+}
+
+.testimonial-col {
+  @apply flex flex-col gap-y-6 sm:gap-y-8;
+}
+
+.testimonial {
+  @apply relative rounded-2xl bg-surface0 p-6 shadow-xl shadow-black/10;
+}
+
+.testimonial-text {
+  @apply text-lg tracking-tight;
+}
+
+.testimonial-caption {
+  @apply relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6;
+}
