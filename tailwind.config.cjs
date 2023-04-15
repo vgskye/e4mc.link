@@ -1,7 +1,7 @@
 const config = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts}",
+    "./src/**/*.{js,ts,css}",
   ],
 
   theme: {
