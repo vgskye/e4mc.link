@@ -1,0 +1,46 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Region",
+          "value": "Vercel"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "script-src 'self' https://analytics.skyevg.systems/skyevglytics.js; style-src 'self'; img-src 'self'; connect-src https://analytics.skyevg.systems/api/skyevglytics; default-src 'none'; base-uri 'none'; require-trusted-types-for 'script';"
+        },
+        {
+          "key": "X-Permitted-Cross-Domain-Policies",
+          "value": "none"
+        },
+        {
+          "key": "Cross-Origin-Embedder-Policy",
+          "value": "require-corp"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin"
+        },
+        {
+          "key": "Cross-Origin-Resource-Policy",
+          "value": "same-origin"
+        }
+      ]
+    }
+  ]
+}
